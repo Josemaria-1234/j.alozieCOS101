@@ -39,3 +39,4 @@ fn read_number(prompt: &str) -> f64 {
     io::stdin().read_line(&mut input).expect("Failed to read input");
     input.trim().parse().expect("Please enter a valid number")
 }
+    

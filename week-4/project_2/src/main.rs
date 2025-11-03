@@ -3,12 +3,12 @@ use std::io;
 fn main() {
     // Ask if the user is experienced
 
-    println!("Are you experienced? (yes/no):");
+    println!("Are you experienced in this field ? (yes/no):");
 
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to read input");
 
-    // Convert input to lowercase and trim whitespace
+    // Convert input to lowercase and trim lowercase
     let input = input.trim().to_lowercase();
 
     // Convert to boolean
